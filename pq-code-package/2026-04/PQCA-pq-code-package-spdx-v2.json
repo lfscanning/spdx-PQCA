@@ -1,0 +1,221 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2026-05-09T09:03:46Z",
+        "creators": [
+            "Tool: protobom-v0.0.0-20250416155525-64c0c744777d+dirty",
+            "Tool: trivy-dev",
+            "Organization: aquasecurity",
+            "Organization: Linux Foundation",
+            "Tool: Scaffold",
+            "Tool: Parlay"
+        ],
+        "licenseListVersion": "3.20"
+    },
+    "dataLicense": "CC0-1.0",
+    "hasExtractedLicensingInfos": [
+        {
+            "comment": "This license text represents a string found in licensing metadata - the actual text is not known",
+            "extractedText": "MIT AND BSD (version unspecified)",
+            "licenseId": "LicenseRef-MIT-AND-BSD-version-unspecified-"
+        }
+    ],
+    "name": "/tmp/tmpekf6mfks/code",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "http://trivy.dev/filesystem//tmp/tmpekf6mfks/code-0d056524-73f0-43eb-8d76-2cd222c5db8d",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "PQCA.pq-code-package",
+            "primaryPackagePurpose": "SOURCE",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "2026-04"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-pq-code-package-mldsa-native",
+            "comment": "This package was added to the Trivy analysis for the mldsa-native by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/pq-code-package/mldsa-native/archive/55c9fb6a3b9a60ced4d9343bfafb76187b50f7c0.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/pq-code-package/mldsa-native@55c9fb6a3b9a60ced4d9343bfafb76187b50f7c0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "mldsa-native",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "55c9fb6a3b9a60ced4d9343bfafb76187b50f7c0"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-pq-code-package-mlkem-libjade",
+            "comment": "This package was added to the Trivy analysis for the mlkem-libjade by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/pq-code-package/mlkem-libjade/archive/c2380886a0d644266661e702d5000027df095a2b.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/pq-code-package/mlkem-libjade@c2380886a0d644266661e702d5000027df095a2b",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "mlkem-libjade",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "c2380886a0d644266661e702d5000027df095a2b"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-pq-code-package-mlkem-native",
+            "comment": "This package was added to the Trivy analysis for the mlkem-native by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/pq-code-package/mlkem-native/archive/8dae40b2ee183e8e1a46cdd9ea9c7360462aa708.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/pq-code-package/mlkem-native@8dae40b2ee183e8e1a46cdd9ea9c7360462aa708",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "mlkem-native",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "8dae40b2ee183e8e1a46cdd9ea9c7360462aa708"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-pq-code-package-pq-code-package-hackathon",
+            "comment": "This package was added to the Trivy analysis for the pq-code-package-hackathon by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/pq-code-package/pq-code-package-hackathon/archive/d7cf61f9cb9c2451f02b52ca086786a9fc95023c.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/pq-code-package/pq-code-package-hackathon@d7cf61f9cb9c2451f02b52ca086786a9fc95023c",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "pq-code-package-hackathon",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "d7cf61f9cb9c2451f02b52ca086786a9fc95023c"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-pq-code-package-rust-libcrux",
+            "comment": "This package was added to the Trivy analysis for the rust-libcrux by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/pq-code-package/rust-libcrux/archive/e6133710b0b1826e944d100055d5cb4032c292a1.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/pq-code-package/rust-libcrux@e6133710b0b1826e944d100055d5cb4032c292a1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "rust-libcrux",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "e6133710b0b1826e944d100055d5cb4032c292a1"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-pq-code-package-slhdsa-c",
+            "comment": "This package was added to the Trivy analysis for the slhdsa-c by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/pq-code-package/slhdsa-c/archive/0838f0a6aa885e724b66e1348ed9b30b23ff9df4.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/pq-code-package/slhdsa-c@0838f0a6aa885e724b66e1348ed9b30b23ff9df4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "slhdsa-c",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "0838f0a6aa885e724b66e1348ed9b30b23ff9df4"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-pq-code-package-template-code",
+            "comment": "This package was added to the Trivy analysis for the template-code by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/pq-code-package/template-code/archive/cf96a7423cfd71f0a62c58c93c30a45220871b50.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/pq-code-package/template-code@cf96a7423cfd71f0a62c58c93c30a45220871b50",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND (Apache-2.0 AND CC-BY-4.0 AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND (CC-BY-4.0 AND MIT) AND MIT AND LicenseRef-MIT-AND-BSD-version-unspecified- AND (MIT AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "template-code",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "cf96a7423cfd71f0a62c58c93c30a45220871b50"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relatedSpdxElement": "SPDXRef-PQCA-pq-code-package-mldsa-native",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relatedSpdxElement": "SPDXRef-PQCA-pq-code-package-mlkem-libjade",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relatedSpdxElement": "SPDXRef-PQCA-pq-code-package-mlkem-native",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relatedSpdxElement": "SPDXRef-PQCA-pq-code-package-pq-code-package-hackathon",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relatedSpdxElement": "SPDXRef-PQCA-pq-code-package-rust-libcrux",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relatedSpdxElement": "SPDXRef-PQCA-pq-code-package-slhdsa-c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-23c71bfcf991d6d6",
+            "relatedSpdxElement": "SPDXRef-PQCA-pq-code-package-template-code",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
