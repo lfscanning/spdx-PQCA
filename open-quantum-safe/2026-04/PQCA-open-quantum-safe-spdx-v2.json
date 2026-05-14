@@ -1,0 +1,3076 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2026-05-14T18:28:40Z",
+        "creators": [
+            "Tool: protobom-v0.0.0-20250416155525-64c0c744777d+dirty",
+            "Tool: trivy-dev",
+            "Organization: aquasecurity",
+            "Organization: Linux Foundation",
+            "Tool: Scaffold",
+            "Tool: Parlay"
+        ],
+        "licenseListVersion": "3.20"
+    },
+    "dataLicense": "CC0-1.0",
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Apache-2.0 AND Apache-2.0 AND (LGPL-2.1-only AND (MIT OR GPL-1.0-or-later) AND GPL-2.0-or-later AND Bison-exception-2.2) AND Apache-2.0 AND JSON AND LicenseRef-scancode-generic-cla",
+            "licenseId": "LicenseRef-fixed-0x376f1166e5d4ab8e"
+        },
+        {
+            "extractedText": "(BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference) AND LicenseRef-scancode-unknown-license-reference AND (GPL-2.0-or-later AND LGPL-2.0-or-later) AND GPL-1.0-or-later AND (GPL-2.0-or-later WITH Autoconf-exception-generic AND GPL-1.0-or-later) AND (LicenseRef-scancode-generic-exception AND LicenseRef-scancode-warranty-disclaimer) AND (LGPL-2.1-only WITH Qt-LGPL-exception-1.1 OR GPL-3.0-only OR LicenseRef-scancode-commercial-license) AND LicenseRef-scancode-generic-exception AND (LGPL-3.0-only OR MPL-2.0) AND (MPL-1.0 OR GPL-2.0-or-later OR LGPL-2.0-or-later) AND AFL-3.0 AND Apache-2.0 AND Apache-2.0 AND BSD-2-Clause AND Apache-2.0 AND LLVM-exception AND Apache-2.0 AND LicenseRef-scancode-bsl-1.0 AND BSD-2-Clause AND BSD-2-Clause AND (LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-unknown-license-reference) AND BSD-3-Clause AND BSL-1.0 AND CPL-1.0 AND GPL-1.0-or-later AND GPL-2.0+ AND GPL-2.0-or-later AND GPL-2.0-or-later AND GPL-2.0-or-later AND ((GPL-2.0-or-later OR BSD-3-Clause) AND GPL-2.0-or-later) AND (GPL-1.0-or-later AND GPL-2.0-or-later) AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-or-later AND BSD-2-Clause AND GPL-2.0-or-later WITH Autoconf-exception-generic AND LicenseRef-scancode-warranty-disclaimer AND GPL-2.0-or-later WITH Bison-exception-1.24 AND GPL-2.0-or-later WITH harbour-exception AND GPL-3.0-only AND GPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.0-or-later WITH OCaml-LGPL-linking-exception AND LGPL-2.1-only AND LGPL-2.1-only WITH Qt-LGPL-exception-1.1 OR GPL-3.0-only OR LicenseRef-scancode-commercial-license AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-scancode-iso-8879 AND LicenseRef-scancode-other-permissive AND LicenseRef-scancode-pipedream-sal-1.0 AND BSL-1.0 AND LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-public-domain AND LicenseRef-scancode-public-domain-disclaimer AND LicenseRef-scancode-unknown-license-reference AND LicenseRef-scancode-unknown-spdx AND LicenseRef-scancode-warranty-disclaimer AND MIT AND MIT AND (MIT AND LicenseRef-scancode-proprietary-license) AND MIT AND AGPL-3.0-or-later AND AGPL-3.0-only AND MIT AND BSD-2-Clause AND MIT-Modern-Variant AND MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later AND MPL-2.0 AND PostgreSQL",
+            "licenseId": "LicenseRef-fixed-0x83bb30da03f283e"
+        },
+        {
+            "extractedText": "This license represents a situation where a license for a component could not be found or concluded",
+            "licenseId": "LicenseRef-NOASSERTION"
+        },
+        {
+            "comment": "This license text represents a string found in licensing metadata - the actual text is not known",
+            "extractedText": "Public domain statement",
+            "licenseId": "LicenseRef-Public-domain-statement"
+        }
+    ],
+    "name": "/tmp/tmptjpsicp5/code",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "http://trivy.dev/filesystem//tmp/tmptjpsicp5/code-f0e13c9d-f52e-44a6-be7b-e63fea5de113",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Application-5978191d870f60a1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "boringssl/go.mod",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "3f7be142774019d871f57d266fa38c25ef2ccf59"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-7dd0ada62f9ebbbf",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "boringssl/rust/Cargo.lock",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "3f7be142774019d871f57d266fa38c25ef2ccf59"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-98e7b812db2e3465",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "boringssl/rust/bssl-crypto/Cargo.lock",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "3f7be142774019d871f57d266fa38c25ef2ccf59"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-4d560c0a34e5a6f2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "boringssl/rust/bssl-sys/Cargo.lock",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "3f7be142774019d871f57d266fa38c25ef2ccf59"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-d9ec6c3835f4eb09",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "boringssl/third_party/benchmark/tools/requirements.txt",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "3f7be142774019d871f57d266fa38c25ef2ccf59"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-b894d22feae38fb1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "liboqs-go/go.mod",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "75451133b94a6c4be5f528eef94916ce08475f24"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-8e8079f3e605500a",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "liboqs-java/pom.xml",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "97353bcc8e53152e999248b8dfc89a1ef05d045b"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-fdfb21cae28cb654",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "liboqs/.github/workflows/requirements.txt",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "d8509387febc9e32466c86aab544d225d60c8e3c"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-b95a9feed764685d",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "liboqs/scripts/copy_from_upstream/requirements.txt",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "d8509387febc9e32466c86aab544d225d60c8e3c"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-8f3019c864d4bf71",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "oqs-demos/locust/requirements.txt",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "189171f313477518a0c6569456b826922d408026"
+        },
+        {
+            "SPDXID": "SPDXRef-Application-eab510880e21a9e0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "oqs-provider/oqs-template/requirements.txt",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "ea09f0fec9a306b9f7d8437ab9c19bb25a47612e"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-59157764611fbc24",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/rust/Cargo.lock"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9d1f4c41ce265622",
+            "description": "A very fast and expressive template engine.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/jinja2@3.1.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+            "name": "Jinja2",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: oqs-provider/oqs-template/requirements.txt",
+            "supplier": "Organization: Pallets",
+            "versionInfo": "3.1.5"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-34051e5b2376b4d4",
+            "description": "Safely add untrusted strings to HTML/XML markup.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/markupsafe@2.1.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+            "name": "MarkupSafe",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: oqs-provider/oqs-template/requirements.txt",
+            "supplier": "Organization: Pallets",
+            "versionInfo": "2.1.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-933b051b73c30a84",
+            "description": "YAML parser and emitter for Python",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pyyaml@6.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pyyaml.org/",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "PyYAML",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: oqs-provider/oqs-template/requirements.txt",
+            "supplier": "Organization: The YAML Project",
+            "versionInfo": "6.0.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-867181477b120177",
+            "description": "Classes Without Boilerplate",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/attrs@25.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "attrs",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: The attrs Cabal",
+            "versionInfo": "25.3.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-526d695de9ab45c",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/boringssl.googlesource.com/boringssl.git",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://boringssl.googlesource.com/boringssl",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "boringssl.googlesource.com/boringssl.git",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5882e1aa6ade1da9",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:cargo/bssl-crypto@0.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "bssl-crypto",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/rust/Cargo.lock",
+            "versionInfo": "0.2.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e6945fe47f30c294",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:cargo/bssl-crypto@0.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "bssl-crypto",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/rust/bssl-crypto/Cargo.lock",
+            "versionInfo": "0.2.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1323dae46c86c144",
+            "description": "Placeholder package for boringssl bindings",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:cargo/bssl-sys@0.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "bssl-sys",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/rust/bssl-sys/Cargo.lock",
+            "versionInfo": "0.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5baa9dd9435e74f2",
+            "description": "Placeholder package for boringssl bindings",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:cargo/bssl-sys@0.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "bssl-sys",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/rust/Cargo.lock",
+            "versionInfo": "0.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d776eaf7d5b4a1d2",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cel.dev/expr@v0.23.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/google/cel-spec",
+            "licenseConcluded": "Apache-2.0 AND LicenseRef-scancode-generic-cla",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cel.dev/expr",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.23.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1cf44c9e149830ff",
+            "description": "Python package for providing Mozilla's CA Bundle.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/certifi@2025.6.15",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/certifi/python-certifi",
+            "licenseConcluded": "MPL-2.0 AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference",
+            "licenseDeclared": "MPL-2.0",
+            "name": "certifi",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: Certifi",
+            "versionInfo": "2025.6.15"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-be2af6401d16c16a",
+            "description": "Python package for providing Mozilla's CA Bundle.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/certifi@2025.8.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/certifi/python-certifi",
+            "licenseConcluded": "MPL-2.0 AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference",
+            "licenseDeclared": "MPL-2.0",
+            "name": "certifi",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Certifi",
+            "versionInfo": "2025.8.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6d3e72df87f64f70",
+            "description": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/charset-normalizer@3.4.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "CC-BY-SA-3.0 AND LicenseRef-scancode-public-domain AND LGPL-2.1-only AND MPL-1.1 AND MIT AND MIT AND (LGPL-2.1-only AND MPL-1.1) AND MIT AND LicenseRef-scancode-unknown-license-reference AND (LGPL-2.1-only AND MPL-1.1) AND MIT AND LicenseRef-scancode-unknown-license-reference AND LicenseRef-scancode-warranty-disclaimer",
+            "licenseDeclared": "MIT",
+            "name": "charset-normalizer",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: TAHRI Ahmed R.",
+            "versionInfo": "3.4.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b86799288a1f01f7",
+            "description": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/charset-normalizer@3.4.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "CC-BY-SA-3.0 AND LicenseRef-scancode-public-domain AND LGPL-2.1-only AND MPL-1.1 AND MIT AND MIT AND (LGPL-2.1-only AND MPL-1.1) AND MIT AND LicenseRef-scancode-unknown-license-reference AND (LGPL-2.1-only AND MPL-1.1) AND MIT AND LicenseRef-scancode-unknown-license-reference AND LicenseRef-scancode-warranty-disclaimer",
+            "licenseDeclared": "MIT",
+            "name": "charset-normalizer",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: TAHRI Ahmed R.",
+            "versionInfo": "3.4.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6072c9c773891e32",
+            "description": "Package cloud is the root of the packages used to access Google Cloud\nServices. See https://pkg.go.dev/cloud.google.com/go#section-directories for a\nfull list of sub-modules.\n\nAll clients in sub-packages are configurable via client options. These options\nare described here: https://pkg.go.dev/google.golang.org/api/option.\n\nEndpoint configuration is used to specify the URL to which requests are\nsent. It is used for services that support or require regional endpoints, as\nwell as for other use cases such as testing against fake servers.\n\nFor example, the Vertex AI service recommends that you configure the endpoint to\nthe location with the features you want that is closest to your physical\nlocation or the location of your users. There is no global endpoint for Vertex\nAI. See Vertex AI - Locations for more details. The following example\ndemonstrates configuring a Vertex AI client with a regional endpoint:\n\nAll of the clients support authentication via Google Application Default Credentials,\nor by providing a JSON key file for a Service Account. See examples below.\n\nGoogle Application Default Credentials (ADC) is the recommended way to authorize\nand authenticate clients. For information on how to create and obtain\nApplication Default Credentials, see\nhttps://cloud.google.com/docs/authentication/production. If you have your\nenvironment configured correctly you will not need to pass any extra information\nto the client libraries. Here is an example of a client using ADC to\nauthenticate:\n\nYou can use a file with credentials to authenticate and authorize, such as a\nJSON key file associated with a Google service account. Service Account keys can\nbe created and downloaded from https://console.cloud.google.com/iam-admin/serviceaccounts.\nThis example uses the Secret Manger client, but the same steps apply to the\nall other client libraries this package as well. Example:\n\nIn some cases (for instance, you don't want to store secrets on disk), you can\ncreate credentials from in-memory JSON and use the WithCredentials option.\nThis example uses the Secret Manager client, but the same steps apply to\nall other client libraries as well. Note that scopes can be\nfound at https://developers.google.com/identity/protocols/oauth2/scopes, and\nare also provided in all auto-generated libraries: for example,\ncloud.google.com/go/secretmanager/apiv1 provides DefaultAuthScopes. Example:\n\nBy default, non-streaming methods, like Create or Get, will have a default\ndeadline applied to the context provided at call time, unless a context deadline\nis already set. Streaming methods have no default deadline and will run\nindefinitely. To set timeouts or arrange for cancellation, use\ncontext. Transient errors will be retried when correctness allows.\n\nHere is an example of setting a timeout for an RPC using\ncontext.WithTimeout:\n\nHere is an example of setting a timeout for an RPC using\ngithub.com/googleapis/gax-go/v2.WithTimeout:\n\nHere is an example of how to arrange for an RPC to be canceled, use\ncontext.WithCancel:\n\nDo not attempt to control the initial connection (dialing) of a service by\nsetting a timeout on the context passed to NewClient. Dialing is non-blocking,\nso timeouts would be ineffective and would only interfere with credential\nrefreshing, which uses the same context.\n\nRegardless of which transport is used, request headers can be set in the same\nway using [`callctx.SetHeaders`]setheaders.\n\nHere is a generic example:\n\nThere are a some header keys that Google reserves for internal use that must\nnot be ovewritten. The following header keys are broadly considered reserved\nand should not be conveyed by client library users unless instructed to do so:\n\n* `x-goog-api-client`\n* `x-goog-request-params`\n\nBe sure to check the individual package documentation for other service-specific\nreserved headers. For example, Storage supports a specific auditing header that\nis mentioned in that [module's documentation]storagedocs.\n\nGoogle Cloud services respect system parameterssystem parameters that can be\nused to augment request and/or response behavior. For the most part, they are\nnot needed when using one of the enclosed client libraries. However, those that\nmay be necessary are made available via the [`callctx`]callctx package. If not\npresent there, consider opening an issue on that repo to request a new constant.\n\nConnection pooling differs in clients based on their transport. Cloud\nclients either rely on HTTP or gRPC transports to communicate\nwith Google Cloud.\n\nCloud clients that use HTTP rely on the underlying HTTP transport to cache\nconnections for later re-use. These are cached to the http.MaxIdleConns\nand http.MaxIdleConnsPerHost settings in http.DefaultTransport by default.\n\nFor gRPC clients, connection pooling is configurable. Users of Cloud Client\nLibraries may specify google.golang.org/api/option.WithGRPCConnectionPool\nas a client option to NewClient calls. This configures the underlying gRPC\nconnections to be pooled and accessed in a round robin fashion.\n\nMinimal container images like Alpine lack CA certificates. This causes RPCs to\nappear to hang, because gRPC retries indefinitely. See\nhttps://github.com/googleapis/google-cloud-go/issues/928 for more information.\n\nFor tips on how to write tests against code that calls into our libraries check\nout our Debugging Guide.\n\nFor tips on how to write tests against code that calls into our libraries check\nout our Testing Guide.\n\nMost of the errors returned by the generated clients are wrapped in an\ngithub.com/googleapis/gax-go/v2/apierror.APIError and can be further unwrapped\ninto a google.golang.org/grpc/status.Status or\ngoogle.golang.org/api/googleapi.Error depending on the transport used to make\nthe call (gRPC or REST). Converting your errors to these types can be a useful\nway to get more information about what went wrong while debugging.\n\nAPIError gives access to specific details in the error. The transport-specific\nerrors can still be unwrapped using the APIError.\n\nSemver is used to communicate stability of the sub-modules of this package.\nNote, some stable sub-modules do contain packages, and sometimes features, that\nare considered unstable. If something is unstable it will be explicitly labeled\nas such. Example of package does in an unstable package:\n\nClients that contain alpha and beta in their import path may change or go away\nwithout notice.\n\nClients marked stable will maintain compatibility with future versions for as\nlong as we can reasonably sustain. Incompatible changes might be made in some\nsituations, including:",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cloud.google.com/go@v0.120.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-cloud-go",
+            "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-generic-cla",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cloud.google.com/go",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.120.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c06df262a8286c04",
+            "description": "Package auth provides utilities for managing Google Cloud credentials,\nincluding functionality for creating, caching, and refreshing OAuth2 tokens.\nIt offers customizable options for different OAuth2 flows, such as 2-legged\n(2LO) and 3-legged (3LO) OAuth, along with support for PKCE and automatic\ntoken management.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cloud.google.com/go/auth@v0.16.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-cloud-go",
+            "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cloud.google.com/go/auth",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.16.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-667a454a2c190e68",
+            "description": "Package oauth2adapt helps converts types used in cloud.google.com/go/auth\nand golang.org/x/oauth2.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cloud.google.com/go/auth/oauth2adapt@v0.2.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-cloud-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cloud.google.com/go/auth/oauth2adapt",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.2.8"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-be18c4c5828c1cc6",
+            "description": "Package metadata provides access to Google Compute Engine (GCE)\nmetadata and API service accounts.\n\nThis package is a wrapper around the GCE metadata service,\nas documented at https://cloud.google.com/compute/docs/metadata/overview.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cloud.google.com/go/compute/metadata@v0.6.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-cloud-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cloud.google.com/go/compute/metadata",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.6.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-31abff374ac80aee",
+            "description": "Package iam supports the resource-specific operations of Google Cloud\nIAM (Identity and Access Management) for the Google Cloud Libraries.\nSee https://cloud.google.com/iam for more about IAM.\n\nUsers of the Google Cloud Libraries will typically not use this package\ndirectly. Instead they will begin with some resource that supports IAM, like\na pubsub topic, and call its IAM method to get a Handle for that resource.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cloud.google.com/go/iam@v1.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-cloud-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cloud.google.com/go/iam",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v1.5.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-24961e59fb1e523c",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cloud.google.com/go/monitoring@v1.24.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-cloud-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cloud.google.com/go/monitoring",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v1.24.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e3d172959f62a63a",
+            "description": "Package storage provides an easy way to work with Google Cloud Storage.\nGoogle Cloud Storage stores data in named objects, which are grouped into buckets.\n\nMore information about Google Cloud Storage is available at\nhttps://cloud.google.com/storage/docs.\n\nSee https://pkg.go.dev/cloud.google.com/go for authentication, timeouts,\nconnection pooling and similar aspects of this package.\n\nTo start working with this package, create a Client:\n\nThe client will use your default application credentials. Clients should be\nreused instead of created as needed. The methods of Client are safe for\nconcurrent use by multiple goroutines.\n\nYou may configure the client by passing in options from the google.golang.org/api/option\npackage. You may also use options defined in this package, such as WithJSONReads.\n\nIf you only wish to access public data, you can create\nan unauthenticated client with\n\nTo use an emulator with this library, you can set the STORAGE_EMULATOR_HOST\nenvironment variable to the address at which your emulator is running. This will\nsend requests to that address instead of to Cloud Storage. You can then create\nand use a client as usual:\n\nPlease note that there is no official emulator for Cloud Storage.\n\nA Google Cloud Storage bucket is a collection of objects. To work with a\nbucket, make a bucket handle:\n\nA handle is a reference to a bucket. You can have a handle even if the\nbucket doesn't exist yet. To create a bucket in Google Cloud Storage,\ncall BucketHandle.Create:\n\nNote that although buckets are associated with projects, bucket names are\nglobal across all projects.\n\nEach bucket has associated metadata, represented in this package by\nBucketAttrs. The third argument to BucketHandle.Create allows you to set\nthe initial BucketAttrs of a bucket. To retrieve a bucket's attributes, use\nBucketHandle.Attrs:\n\nAn object holds arbitrary data as a sequence of bytes, like a file. You\nrefer to objects using a handle, just as with buckets, but unlike buckets\nyou don't explicitly create an object. Instead, the first time you write\nto an object it will be created. You can use the standard Go io.Reader\nand io.Writer interfaces to read and write object data:\n\nObjects also have attributes, which you can fetch with ObjectHandle.Attrs:\n\nListing objects in a bucket is done with the BucketHandle.Objects method:\n\nObjects are listed lexicographically by name. To filter objects\nlexicographically, [Query.StartOffset] and/or [Query.EndOffset] can be used:\n\nIf only a subset of object attributes is needed when listing, specifying this\nsubset using Query.SetAttrSelection may speed up the listing process:\n\nBoth objects and buckets have ACLs (Access Control Lists). An ACL is a list of\nACLRules, each of which specifies the role of a user, group or project. ACLs\nare suitable for fine-grained control, but you may prefer using IAM to control\naccess at the project level (see Cloud Storage IAM docs.\n\nTo list the ACLs of a bucket or object, obtain an ACLHandle and call ACLHandle.List:\n\nYou can also set and delete ACLs.\n\nEvery object has a generation and a metageneration. The generation changes\nwhenever the content changes, and the metageneration changes whenever the\nmetadata changes. Conditions let you check these values before an operation;\nthe operation only executes if the conditions match. You can use conditions to\nprevent race conditions in read-modify-write operations.\n\nFor example, say you've read an object's metadata into objAttrs. Now\nyou want to write to that object, but only if its contents haven't changed\nsince you read it. Here is how to express that:\n\nYou can obtain a URL that lets anyone read or write an object for a limited time.\nSigning a URL requires credentials authorized to sign a URL. To use the same\nauthentication that was used when instantiating the Storage client, use\nBucketHandle.SignedURL.\n\nYou can also sign a URL without creating a client. See the documentation of\nSignedURL for details.\n\nA type of signed request that allows uploads through HTML forms directly to Cloud Storage with\ntemporary permission. Conditions can be applied to restrict how the HTML form is used and exercised\nby a user.\n\nFor more information, please see the XML POST Object docs as well\nas the documentation of BucketHandle.GenerateSignedPostPolicyV4.\n\nIf the GoogleAccessID and PrivateKey option fields are not provided, they will\nbe automatically detected by BucketHandle.SignedURL and\nBucketHandle.GenerateSignedPostPolicyV4 if any of the following are true:\n\nDetecting GoogleAccessID may not be possible if you are authenticated using a\ntoken source or using option.WithHTTPClient. In this case, you can provide a\nservice account email for GoogleAccessID and the client will attempt to sign\nthe URL or Post Policy using that service account.\n\nTo generate the signature, you must have:\n\nErrors returned by this client are often of the type github.com/googleapis/gax-go/v2/apierror.\nThe [apierror.APIError] type can wrap a google.golang.org/grpc/status.Status\nif gRPC was used, or a google.golang.org/api/googleapi.Error if HTTP/REST was used.\nYou might also encounter googleapi.Error directly from HTTP operations.\nThese types of errors can be inspected for more information by using errors.As\nto access the specific underlying error types and retrieve detailed information,\nincluding HTTP or gRPC status codes. For example:\n\nThis library may also return other errors that are not wrapped as [apierror.APIError]. For\nexample, errors with authentication may return cloud.google.com/go/auth.Error.\n\nMethods in this package may retry calls that fail with transient errors.\nRetrying continues indefinitely unless the controlling context is canceled, the\nclient is closed, or a non-transient error is received. To stop retries from\ncontinuing, use context timeouts or cancellation.\n\nThe retry strategy in this library follows best practices for Cloud Storage. By\ndefault, operations are retried only if they are idempotent, and exponential\nbackoff with jitter is employed. In addition, errors are only retried if they\nare defined as transient by the service. See the Cloud Storage retry docs\nfor more information.\n\nUsers can configure non-default retry behavior for a single library call (using\nBucketHandle.Retryer and ObjectHandle.Retryer) or for all calls made by a\nclient (using Client.SetRetry). For example:\n\nYou can add custom headers to any API call made by this package by using\ncallctx.SetHeaders on the context which is passed to the method. For example,\nto add a custom audit logging header:\n\nThis package includes support for the Cloud Storage gRPC API. This\nimplementation uses gRPC rather than the default JSON & XML APIs\nto make requests to Cloud Storage. All methods on the Client support\nthe gRPC API, with the exception of the Client.ServiceAccount, Notification,\nand HMACKey methods.\n\nThe Cloud Storage gRPC API is generally available.\n\nTo create a client which will use gRPC, use the alternate constructor:\n\nOne major advantage of the gRPC API is that it can use Direct Connectivity,\nenabling requests to skip some proxy steps and reducing response latency.\nRequirements to use Direct Connectivity include:\n\nAdditional requirements for Direct Connectivity are documented in the\nCloud Storage gRPC docs. If all requirements are met, the client will\nuse Direct Connectivity by default without requiring any client options\nor environment variables. To disable Direct Connectivity, you can set\nthe environment variable GOOGLE_CLOUD_DISABLE_DIRECT_PATH=true.\n\nDependencies for the gRPC API may slightly increase the size of binaries for\napplications depending on this package. If you are not using gRPC, you can use\nthe build tag `disable_grpc_modules` to opt out of these dependencies and\nreduce the binary size.\n\nThe gRPC client is instrumented with Open Telemetry metrics which export to\nCloud Monitoring by default. More information is available in the\ngRPC client-side metrics documentation, including information about\nroles which must be enabled in order to do the export successfully. To\ndisable this export, you can use the WithDisabledClientMetrics client\noption.\n\nThe client automatically computes and sends CRC32C checksums for uploads using Writer,\nproviding an additional layer of data integrity validation with a slight CPU overhead.\n\nNote: With a chunk size of 0 (no buffering) in JSON uploads, an auto-calculated checksum mismatch\nreturns an error but may leave corrupt data on the server, requiring manual cleanup. This risk does not\napply to single-shot uploads when user-provided checksum is provided.\n\nAutomatic checksumming can be disabled using [Writer.DisableAutoChecksum].\n\nThe parallel upload feature splits a large object into multiple parts and uploads them\nin parallel. It is supported exclusively for gRPC clients. If used with a JSON\nclient, the configuration is ignored and a standard upload is performed.\n\nParallel uploads can yield higher throughput when uploading large objects.\nHowever, there are several things which must be kept in mind when choosing to\nuse this strategy:\n\n**Note:** This feature is currently experimental and its API surface may change\nin future releases. It is not yet recommended for production use.\n\nCertain control plane and long-running operations for Cloud Storage (including Folder\nand Managed Folder operations) are supported via the autogenerated Storage Control\nclient, which is available as a subpackage in this module. See package docs at\ncloud.google.com/go/storage/control/apiv2 or reference the Storage Control API docs.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/cloud.google.com/go/storage@v1.51.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-cloud-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "cloud.google.com/go/storage",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v1.51.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6b0365216800af7",
+            "description": "Cross-platform colored terminal text.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/colorama@0.4.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/tartley/colorama",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+            "name": "colorama",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: Jonathan Hartley",
+            "versionInfo": "0.4.6"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5e0f253812d49fb6",
+            "description": "execnet: rapid multi-Python deployment",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/execnet@2.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://execnet.readthedocs.io/en/latest/",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "execnet",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "versionInfo": "2.1.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f3a003febe794051",
+            "description": "Package edwards25519 implements group logic for the twisted Edwards curve\n\nThis is better known as the Edwards curve equivalent to Curve25519, and is\nthe curve used by the Ed25519 signature scheme.\n\nMost users don't need this package, and should instead use crypto/ed25519 for\nsignatures, crypto/ecdh for Diffie-Hellman, or github.com/gtank/ristretto255\nfor prime order group logic.\n\nHowever, developers who do need to interact with low-level edwards25519\noperations can use this package, which is an extended version of\ncrypto/internal/fips140/edwards25519 from the standard library repackaged as\nan importable module.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/filippo.io/edwards25519@v1.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/FiloSottile/edwards25519",
+            "licenseConcluded": "BSD-1-Clause AND BSD-3-Clause AND BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "filippo.io/edwards25519",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Filippo Valsorda",
+            "versionInfo": "v1.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b715c42f99101b99",
+            "description": "Git Object Database",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/gitdb@4.0.12",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/gitpython-developers/gitdb",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND (BSD-3-Clause AND GPL-1.0-or-later) AND BSD-3-Clause AND GPL-1.0-or-later AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference",
+            "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause AND GPL-1.0-or-later",
+            "name": "gitdb",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "versionInfo": "4.0.12"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-50915fbf010aa056",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/googlecloudplatform/opentelemetry-operations-go/detectors/gcp@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/GoogleCloudPlatform/opentelemetry-operations-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google Cloud Platform",
+            "versionInfo": "v1.27.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1498b9851320b97e",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/googlecloudplatform/opentelemetry-operations-go/exporter/metric@v0.51.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/GoogleCloudPlatform/opentelemetry-operations-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google Cloud Platform",
+            "versionInfo": "v0.51.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9e1e86cf991a9950",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/googlecloudplatform/opentelemetry-operations-go/internal/resourcemapping@v0.51.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/GoogleCloudPlatform/opentelemetry-operations-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google Cloud Platform",
+            "versionInfo": "v0.51.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c760af69f7266157",
+            "description": "Package xxhash implements the 64-bit variant of xxHash (XXH64) as described\nat http://cyan4973.github.io/xxHash/.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/cespare/xxhash",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "github.com/cespare/xxhash/v2",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Caleb Spare",
+            "versionInfo": "v2.3.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5802cc46d9b83bb3",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/cncf/xds/go@v0.0.0-20250326154945-ae57f3c0d45f",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/cncf/xds",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/cncf/xds/go",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Cloud Native Computing Foundation (CNCF)",
+            "versionInfo": "v0.0.0-20250326154945-ae57f3c0d45f"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b980f2f1dc8c2270",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/envoyproxy/go-control-plane/envoy@v1.32.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/envoyproxy/go-control-plane",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/envoyproxy/go-control-plane/envoy",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Envoy Proxy - CNCF",
+            "versionInfo": "v1.32.4"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b91c8e28f37c7e2c",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/envoyproxy/protoc-gen-validate@v1.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/envoyproxy/protoc-gen-validate",
+            "licenseConcluded": "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference AND Python-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/envoyproxy/protoc-gen-validate",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Buf",
+            "versionInfo": "v1.2.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5d95b4e91074bab0",
+            "description": "Package httpsnoop provides an easy way to capture http related metrics (i.e.\nresponse time, bytes written, and http status code) from your application's\nhttp.Handlers.\n\nDoing this requires non-trivial wrapping of the http.ResponseWriter\ninterface, which is also exposed for users interested in a more low-level\nAPI.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/felixge/httpsnoop@v1.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/felixge/httpsnoop",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "github.com/felixge/httpsnoop",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Felix Geisend\u00f6rfer",
+            "versionInfo": "v1.0.4"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-22521d469490496e",
+            "description": "Package logr defines a general-purpose logging API and abstract interfaces\nto back that API.  Packages in the Go ecosystem can depend on this package,\nwhile callers can implement logging with whatever backend is appropriate.\n\nLogging is done using a Logger instance.  Logger is a concrete type with\nmethods, which defers the actual logging to a LogSink interface.  The main\nmethods of Logger are Info() and Error().  Arguments to Info() and Error()\nare key/value pairs rather than printf-style formatted strings, emphasizing\n\"structured logging\".\n\nWith Go's standard log package, we might write:\n\nWith logr's structured logging, we'd write:\n\nErrors are much the same.  Instead of:\n\nWe'd write:\n\nInfo() and Error() are very similar, but they are separate methods so that\nLogSink implementations can choose to do things like attach additional\ninformation (such as stack traces) on calls to Error(). Error() messages are\nalways logged, regardless of the current verbosity.  If there is no error\ninstance available, passing nil is valid.\n\nOften we want to log information only when the application in \"verbose\nmode\".  To write log lines that are more verbose, Logger has a V() method.\nThe higher the V-level of a log line, the less critical it is considered.\nLog-lines with V-levels that are not enabled (as per the LogSink) will not\nbe written.  Level V(0) is the default, and logger.V(0).Info() has the same\nmeaning as logger.Info().  Negative V-levels have the same meaning as V(0).\nError messages do not have a verbosity level and are always logged.\n\nWhere we might have written:\n\nWe can write:\n\nLogger instances can have name strings so that all messages logged through\nthat instance have additional context.  For example, you might want to add\na subsystem name:\n\nThe WithName() method returns a new Logger, which can be passed to\nconstructors or other functions for further use.  Repeated use of WithName()\nwill accumulate name \"segments\".  These name segments will be joined in some\nway by the LogSink implementation.  It is strongly recommended that name\nsegments contain simple identifiers (letters, digits, and hyphen), and do\nnot contain characters that could muddle the log output or confuse the\njoining operation (e.g. whitespace, commas, periods, slashes, brackets,\nquotes, etc).\n\nLogger instances can store any number of key/value pairs, which will be\nlogged alongside all messages logged through that instance.  For example,\nyou might want to create a Logger instance per managed object:\n\nWith the standard log package, we might write:\n\nWith logr we'd write:\n\nLogger has very few hard rules, with the goal that LogSink implementations\nmight have a lot of freedom to differentiate.  There are, however, some\nthings to consider.\n\nThe log message consists of a constant message attached to the log line.\nThis should generally be a simple description of what's occurring, and should\nnever be a format string.  Variable information can then be attached using\nnamed values.\n\nKeys are arbitrary strings, but should generally be constant values.  Values\nmay be any Go value, but how the value is formatted is determined by the\nLogSink implementation.\n\nLogger instances are meant to be passed around by value. Code that receives\nsuch a value can call its methods without having to check whether the\ninstance is ready for use.\n\nThe zero logger (= Logger{}) is identical to Discard() and discards all log\nentries. Code that receives a Logger by value can simply call it, the methods\nwill never crash. For cases where passing a logger is optional, a pointer to Logger\nshould be used.\n\nKeys are not strictly required to conform to any specification or regex, but\nit is recommended that they:\n\nThese guidelines help ensure that log data is processed properly regardless\nof the log implementation.  For example, log implementations will try to\noutput JSON data or will store data for later database (e.g. SQL) queries.\n\nWhile users are generally free to use key names of their choice, it's\ngenerally best to avoid using the following keys, as they're frequently used\nby implementations:\n\nImplementations are encouraged to make use of these keys to represent the\nabove concepts, when necessary (for example, in a pure-JSON output form, it\nwould be necessary to represent at least message and timestamp as ordinary\nnamed values).\n\nImplementations may choose to give callers access to the underlying\nlogging implementation.  The recommended pattern for this is:\n\nLogger grants access to the sink to enable type assertions like this:\n\nCustom `With*` functions can be implemented by copying the complete\nLogger struct and replacing the sink in the copy:\n\nDon't use New to construct a new Logger with a LogSink retrieved from an\nexisting Logger. Source code attribution might not work correctly and\nunexported fields in Logger get lost.\n\nBeware that the same LogSink instance may be shared by different logger\ninstances. Calling functions that modify the LogSink will affect all of\nthose.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/go-logr/logr@v1.4.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/go-logr/logr",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/go-logr/logr",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: go-logr",
+            "versionInfo": "v1.4.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c3f0d346358955a8",
+            "description": "Package stdr implements github.com/go-logr/logr.Logger in terms of\nGo's standard log package.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/go-logr/stdr@v1.2.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/go-logr/stdr",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/go-logr/stdr",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: go-logr",
+            "versionInfo": "v1.2.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4bb3f86f033bcce7",
+            "description": "Package s2a provides the S2A transport credentials used by a gRPC\napplication.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/google/s2a-go@v0.1.9",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/google/s2a-go",
+            "licenseConcluded": "Apache-2.0 AND LicenseRef-scancode-generic-cla",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/google/s2a-go",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google",
+            "versionInfo": "v0.1.9"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f8a8e714ffe8496",
+            "description": "Package uuid generates and inspects UUIDs.\n\nUUIDs are based on RFC 4122 and DCE 1.1: Authentication and Security\nServices.\n\nA UUID is a 16 byte (128 bit) array.  UUIDs may be used as keys to\nmaps or compared directly.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/google/uuid@v1.6.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/google/uuid",
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-NOASSERTION",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/google/uuid",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google",
+            "versionInfo": "v1.6.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b96af0d7ebf7a205",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/googleapis/enterprise-certificate-proxy@v0.3.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/enterprise-certificate-proxy",
+            "licenseConcluded": "Apache-2.0 AND LicenseRef-scancode-generic-cla",
+            "licenseDeclared": "Apache-2.0",
+            "name": "github.com/googleapis/enterprise-certificate-proxy",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.3.6"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-445d9b53ba52d48e",
+            "description": "Package gax contains a set of modules which aid the development of APIs\nfor clients and servers based on gRPC and Google API conventions.\n\nApplication code will rarely need to use this library directly.\nHowever, code generated automatically from API definition files can use it\nto simplify code generation and to provide more convenient and idiomatic API surfaces.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/googleapis/gax-go/v2@v2.14.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/gax-go",
+            "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/googleapis/gax-go/v2",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v2.14.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-35e083dfb9c04ff6",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/open-quantum-safe/liboqs-go",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-quantum-safe/liboqs-go",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "github.com/open-quantum-safe/liboqs-go",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs-go/go.mod",
+            "supplier": "Organization: Open Quantum Safe"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b62015e77a6ae67",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/planetscale/vtprotobuf@v0.6.1-0.20240319094008-0393e58bdf10",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/planetscale/vtprotobuf",
+            "licenseConcluded": "Apache-2.0 AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-3-Clause AND MIT",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/planetscale/vtprotobuf",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: PlanetScale",
+            "versionInfo": "v0.6.1-0.20240319094008-0393e58bdf10"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b3119e47bd7f38f9",
+            "description": "GitPython is a Python library used to interact with Git repositories",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/gitpython@3.1.45",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/gitpython-developers/GitPython",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference AND (BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference) AND BSD-3-Clause AND OpenSSL AND BSD-3-Clause AND mplus",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "gitpython",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: gitpython-developers",
+            "versionInfo": "3.1.45"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-305e82a61a758a61",
+            "description": "Package sdk provides an auto-instrumentable OpenTelemetry SDK.\n\nAn go.opentelemetry.io/auto.Instrumentation can be configured to target the\nprocess running this SDK. In that case, all telemetry the SDK produces will be\nprocessed and handled by that go.opentelemetry.io/auto.Instrumentation.\n\nBy default, if there is no go.opentelemetry.io/auto.Instrumentation set to\nauto-instrument the SDK, the SDK will not generate any telemetry.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/auto/sdk@v1.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go-instrumentation",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/auto/sdk",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v1.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-77ff3fc4e702f076",
+            "description": "Package gcp provides a resource detector for GCP Cloud Function.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/contrib/detectors/gcp@v1.35.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go-contrib",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/contrib/detectors/gcp",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v1.35.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-52def9d823fc2a29",
+            "description": "Package otelgrpc is the instrumentation library for google.golang.org/grpc.\n\nUse NewClientHandler with grpc.WithStatsHandler to instrument a gRPC client.\n\nUse NewServerHandler with grpc.StatsHandler to instrument a gRPC server.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.60.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go-contrib",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v0.60.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3ab12ab6b64fc0e2",
+            "description": "Package otelhttp provides an http.Handler and functions that are intended\nto be used to add tracing by wrapping existing handlers.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.60.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go-contrib",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v0.60.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-73755f9885371b41",
+            "description": "Package otel provides global access to the OpenTelemetry API. The subpackages of\nthe otel package provide an implementation of the OpenTelemetry API.\n\nThe provided API is used to instrument code and measure data about that code's\nperformance and operation. The measured data, by default, is not processed or\ntransmitted anywhere. An implementation of the OpenTelemetry SDK, like the\ndefault SDK implementation (go.opentelemetry.io/otel/sdk), and associated\nexporters are used to process and transport this data.\n\nTo read the getting started guide, see https://opentelemetry.io/docs/languages/go/getting-started/.\n\nTo read more about tracing, see go.opentelemetry.io/otel/trace.\n\nTo read more about metrics, see go.opentelemetry.io/otel/metric.\n\nTo read more about logs, see go.opentelemetry.io/otel/log.\n\nTo read more about propagation, see go.opentelemetry.io/otel/propagation and\ngo.opentelemetry.io/otel/baggage.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/otel@v1.35.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/otel",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v1.35.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b3da34def8738c2c",
+            "description": "Package metric provides the OpenTelemetry API used to measure metrics about\nsource code operation.\n\nThis API is separate from its implementation so the instrumentation built from\nit is reusable. See go.opentelemetry.io/otel/sdk/metric for the official\nOpenTelemetry implementation of this API.\n\nAll measurements made with this package are made via instruments. These\ninstruments are created by a Meter which itself is created by a\nMeterProvider. Applications need to accept a MeterProvider implementation\nas a starting point when instrumenting. This can be done directly, or by using\nthe OpenTelemetry global MeterProvider via GetMeterProvider. Using an\nappropriately named Meter from the accepted MeterProvider, instrumentation\ncan then be built from the Meter's instruments.\n\nEach instrument is designed to make measurements of a particular type. Broadly,\nall instruments fall into two overlapping logical categories: asynchronous or\nsynchronous, and int64 or float64.\n\nAll synchronous instruments (Int64Counter, Int64UpDownCounter,\nInt64Histogram, Float64Counter, Float64UpDownCounter, and\nFloat64Histogram) are used to measure the operation and performance of source\ncode during the source code execution. These instruments only make measurements\nwhen the source code they instrument is run.\n\nAll asynchronous instruments (Int64ObservableCounter,\nInt64ObservableUpDownCounter, Int64ObservableGauge,\nFloat64ObservableCounter, Float64ObservableUpDownCounter, and\nFloat64ObservableGauge) are used to measure metrics outside of the execution\nof source code. They are said to make \"observations\" via a callback function\ncalled once every measurement collection cycle.\n\nEach instrument is also grouped by the value type it measures. Either int64 or\nfloat64. The value being measured will dictate which instrument in these\ncategories to use.\n\nOutside of these two broad categories, instruments are described by the\nfunction they are designed to serve. All Counters (Int64Counter,\nFloat64Counter, Int64ObservableCounter, and Float64ObservableCounter) are\ndesigned to measure values that never decrease in value, but instead only\nincrementally increase in value. UpDownCounters (Int64UpDownCounter,\nFloat64UpDownCounter, Int64ObservableUpDownCounter, and\nFloat64ObservableUpDownCounter) on the other hand, are designed to measure\nvalues that can increase and decrease. When more information needs to be\nconveyed about all the synchronous measurements made during a collection cycle,\na Histogram (Int64Histogram and Float64Histogram) should be used. Finally,\nwhen just the most recent measurement needs to be conveyed about an\nasynchronous measurement, a Gauge (Int64ObservableGauge and\nFloat64ObservableGauge) should be used.\n\nSee the OpenTelemetry documentation for more information about instruments\nand their intended use.\n\nOpenTelemetry defines an instrument name syntax that restricts what\ninstrument names are allowed.\n\nInstrument names should ...\n\nTo ensure compatibility with observability platforms, all instruments created\nneed to conform to this syntax. Not all implementations of the API will validate\nthese names, it is the callers responsibility to ensure compliance.\n\nMeasurements are made by recording values and information about the values with\nan instrument. How these measurements are recorded depends on the instrument.\n\nMeasurements for synchronous instruments (Int64Counter, Int64UpDownCounter,\nInt64Histogram, Float64Counter, Float64UpDownCounter, and\nFloat64Histogram) are recorded using the instrument methods directly. All\ncounter instruments have an Add method that is used to measure an increment\nvalue, and all histogram instruments have a Record method to measure a data\npoint.\n\nAsynchronous instruments (Int64ObservableCounter,\nInt64ObservableUpDownCounter, Int64ObservableGauge,\nFloat64ObservableCounter, Float64ObservableUpDownCounter, and\nFloat64ObservableGauge) record measurements within a callback function. The\ncallback is registered with the Meter which ensures the callback is called once\nper collection cycle. A callback can be registered two ways: during the\ninstrument's creation using an option, or later using the RegisterCallback\nmethod of the Meter that created the instrument.\n\nIf the following criteria are met, an option (WithInt64Callback or\nWithFloat64Callback) can be used during the asynchronous instrument's\ncreation to register a callback (Int64Callback or Float64Callback,\nrespectively):\n\nIf the criteria are not met, use the RegisterCallback method of the Meter that\ncreated the instrument to register a Callback.\n\nThis package does not conform to the standard Go versioning policy, all of its\ninterfaces may have methods added to them without a package major version bump.\nThis non-standard API evolution could surprise an uninformed implementation\nauthor. They could unknowingly build their implementation in a way that would\nresult in a runtime panic for their users that update to the new API.\n\nThe API is designed to help inform an instrumentation author about this\nnon-standard API evolution. It requires them to choose a default behavior for\nunimplemented interface methods. There are three behavior choices they can\nmake:\n\nAll interfaces in this API embed a corresponding interface from\ngo.opentelemetry.io/otel/metric/embedded. If an author wants the default\nbehavior of their implementations to be a compilation failure, signaling to\ntheir users they need to update to the latest version of that implementation,\nthey need to embed the corresponding interface from\ngo.opentelemetry.io/otel/metric/embedded in their implementation. For\nexample,\n\nIf an author wants the default behavior of their implementations to a panic,\nthey need to embed the API interface directly.\n\nThis is not a recommended behavior as it could lead to publishing packages that\ncontain runtime panics when users update other package that use newer versions\nof go.opentelemetry.io/otel/metric.\n\nFinally, an author can embed another implementation in theirs. The embedded\nimplementation will be used for methods not defined by the author. For example,\nan author who wants to default to silently dropping the call can use\ngo.opentelemetry.io/otel/metric/noop:\n\nIt is strongly recommended that authors only embed\ngo.opentelemetry.io/otel/metric/noop if they choose this default behavior.\nThat implementation is the only one OpenTelemetry authors can guarantee will\nfully implement all the API interfaces when a user updates their API.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/metric@v1.35.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/otel/metric",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v1.35.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-679def69622c677c",
+            "description": "Package sdk provides the OpenTelemetry default SDK for Go.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.35.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/otel/sdk",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v1.35.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2fdec0abbdeb253a",
+            "description": "Package metric provides an implementation of the OpenTelemetry metrics SDK.\n\nSee https://opentelemetry.io/docs/concepts/signals/metrics/ for information\nabout the concept of OpenTelemetry metrics and\nhttps://opentelemetry.io/docs/concepts/components/ for more information\nabout OpenTelemetry SDKs.\n\nThe entry point for the metric package is the MeterProvider. It is the\nobject that all API calls use to create Meters, instruments, and ultimately\nmake metric measurements. Also, it is an object that should be used to\ncontrol the life-cycle (start, flush, and shutdown) of the SDK.\n\nA MeterProvider needs to be configured to export the measured data, this is\ndone by configuring it with a Reader implementation (using the WithReader\nMeterProviderOption). Readers take two forms: ones that push to an endpoint\n(NewPeriodicReader), and ones that an endpoint pulls from. See\ngo.opentelemetry.io/otel/exporters for exporters that can be used as\nor with these Readers.\n\nEach Reader, when registered with the MeterProvider, can be augmented with a\nView. Views allow users that run OpenTelemetry instrumented code to modify\nthe generated data of that instrumentation.\n\nThe data generated by a MeterProvider needs to include information about its\norigin. A MeterProvider needs to be configured with a Resource, using the\nWithResource MeterProviderOption, to include this information. This Resource\nshould be used to describe the unique runtime environment instrumented code\nis being run on. That way when multiple instances of the code are collected\nat a single endpoint their origin is decipherable.\n\nTo avoid leaking memory, the SDK returns the same instrument for calls to\ncreate new instruments with the same Name, Unit, and Description.\nImportantly, callbacks provided using metric.WithFloat64Callback or\nmetric.WithInt64Callback will only apply for the first instrument created\nwith a given Name, Unit, and Description. Instead, use\nMeter.RegisterCallback and Registration.Unregister to add and remove\ncallbacks without leaking memory.\n\nCardinality refers to the number of unique attributes collected. High cardinality can lead to\nexcessive memory usage, increased storage costs, and backend performance issues.\n\nCurrently, the OpenTelemetry Go Metric SDK does not enforce a cardinality limit by default\n(note that this may change in a future release). Use WithCardinalityLimit to set the\ncardinality limit as desired.\n\nNew attribute sets are dropped when the cardinality limit is reached. The measurement of\nthese sets are aggregated into\na special attribute set containing attribute.Bool(\"otel.metric.overflow\", true).\nThis ensures total metric values (e.g., Sum, Count) remain correct for the\ncollection cycle, but information about the specific dropped sets\nis not preserved.\n\nRecommendations:\n\nFor performance reasons, the SDK does not guarantee that the order in which\nsynchronous measurements are made to the SDK is reflected in the collected\nmetric data. This means that even when a single goroutine makes sequential\nsynchronous measurements, it is possible for a later measurement to be\nincluded in the collected metric data when an earlier measurement is not.\nThis applies to measurements made to different instruments, or to different\nattribute sets on the same instrument. Sequential measurements made to the\nsame instrument and with the same attributes are guaranteed to preserve\nordering with respect to collection.\n\nAdditionally, the SDK does not guarantee that exemplars are always included\nin the same batch of metric data as the measurement they are associated\nwith.\n\nSee go.opentelemetry.io/otel/metric for more information about\nthe metric API.\n\nSee go.opentelemetry.io/otel/sdk/metric/internal/x for information about\nthe experimental features.\n\nTo enable metrics in your application using the SDK,\nyou'll need to have an initialized MeterProvider\nthat will let you create a go.opentelemetry.io/otel/metric.Meter.\n\nHere's how you might initialize a metrics provider.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/sdk/metric@v1.35.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/otel/sdk/metric",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v1.35.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ab7996f663f5c545",
+            "description": "Package trace provides an implementation of the tracing part of the\nOpenTelemetry API.\n\nTo participate in distributed traces a Span needs to be created for the\noperation being performed as part of a traced workflow. In its simplest form:\n\nA Tracer is unique to the instrumentation and is used to create Spans.\nInstrumentation should be designed to accept a TracerProvider from which it\ncan create its own unique Tracer. Alternatively, the registered global\nTracerProvider from the go.opentelemetry.io/otel package can be used as\na default.\n\nThis package does not conform to the standard Go versioning policy; all of its\ninterfaces may have methods added to them without a package major version bump.\nThis non-standard API evolution could surprise an uninformed implementation\nauthor. They could unknowingly build their implementation in a way that would\nresult in a runtime panic for their users that update to the new API.\n\nThe API is designed to help inform an instrumentation author about this\nnon-standard API evolution. It requires them to choose a default behavior for\nunimplemented interface methods. There are three behavior choices they can\nmake:\n\nAll interfaces in this API embed a corresponding interface from\ngo.opentelemetry.io/otel/trace/embedded. If an author wants the default\nbehavior of their implementations to be a compilation failure, signaling to\ntheir users they need to update to the latest version of that implementation,\nthey need to embed the corresponding interface from\ngo.opentelemetry.io/otel/trace/embedded in their implementation. For\nexample,\n\nIf an author wants the default behavior of their implementations to panic, they\ncan embed the API interface directly.\n\nThis option is not recommended. It will lead to publishing packages that\ncontain runtime panics when users update to newer versions of\ngo.opentelemetry.io/otel/trace, which may be done with a transitive\ndependency.\n\nFinally, an author can embed another implementation in theirs. The embedded\nimplementation will be used for methods not defined by the author. For example,\nan author who wants to default to silently dropping the call can use\ngo.opentelemetry.io/otel/trace/noop:\n\nIt is strongly recommended that authors only embed\ngo.opentelemetry.io/otel/trace/noop if they choose this default behavior.\nThat implementation is the only one OpenTelemetry authors can guarantee will\nfully implement all the API interfaces when a user updates their API.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/trace@v1.35.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/open-telemetry/opentelemetry-go",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "go.opentelemetry.io/otel/trace",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: OpenTelemetry - CNCF",
+            "versionInfo": "v1.35.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-51b677feb19df9fc",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.37.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/crypto",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND (OpenSSL OR BSD-3-Clause) AND BSD-3-Clause AND MIT AND LicenseRef-scancode-google-patent-license-golang",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/crypto",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.37.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-390a18836e2d56ac",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/net@v0.39.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/net",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND BSD-2-Clause AND LicenseRef-scancode-google-patent-license-golang AND W3C-19980720 AND BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/net",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.39.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2f0fad3cc6753411",
+            "description": "Package oauth2 provides support for making\nOAuth2 authorized and authenticated HTTP requests,\nas specified in RFC 6749.\nIt can additionally grant authorization with Bearer JWT.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.29.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/oauth2",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "golang.org/x/oauth2",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.29.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f438e3f99ac9d3d6",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/sync@v0.13.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/sync",
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/sync",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.13.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4f6200417b2d76f9",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/sys@v0.32.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/sys",
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang AND LicenseRef-scancode-proprietary-license",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/sys",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.32.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b13ddd8a0896c0",
+            "description": "Package term provides support functions for dealing with terminals, as\ncommonly found on UNIX systems.\n\nPutting a terminal into raw mode is the most common requirement:\n\nNote that on non-Unix systems os.Stdin.Fd() may not be 0.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/term@v0.31.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/term",
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/term",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.31.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-31b0e206d5011433",
+            "description": "text is a repository of text-related packages related to internationalization\n(i18n) and localization (l10n), such as character encodings, text\ntransformations, and locale-specific text handling.\n\nThere is a 30 minute video, recorded on 2017-11-30, on the \"State of\ngolang.org/x/text\" at https://www.youtube.com/watch?v=uYrDrMEGu58",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/text@v0.24.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/text",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND CC-BY-SA-3.0 AND CC-BY-SA-1.0 AND CC-BY-SA-2.0 AND CC-BY-SA-2.5 AND BSD-3-Clause AND CC-BY-SA-3.0 AND CC-BY-SA-2.5 AND CC-BY-SA-1.0 AND LicenseRef-scancode-google-patent-license-golang",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/text",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.24.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4b76b41324dd3af0",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/time@v0.11.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/time",
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/time",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v0.11.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4e65200219bc77e1",
+            "description": "Package api is the root of the packages used to access Google Cloud\nServices. See https://godoc.org/google.golang.org/api for a full list of\nsub-packages.\n\nWithin api there exist numerous clients which connect to Google APIs,\nand various utility packages.\n\nAll clients in sub-packages are configurable via client options. These\noptions are described here: https://godoc.org/google.golang.org/api/option.\n\nAll the clients in sub-packages support authentication via Google\nApplication Default Credentials (see\nhttps://cloud.google.com/docs/authentication/production), or by providing a\nJSON key file for a Service Account. See the authentication examples in\nhttps://godoc.org/google.golang.org/api/transport for more details.\n\nDue to the auto-generated nature of this collection of libraries, complete\nAPIs or specific versions can appear or go away without notice. As a result,\nyou should always locally vendor any API(s) that your code relies upon.\n\nGoogle APIs follow semver as specified by\nhttps://cloud.google.com/apis/design/versioning. The code generator and\nthe code it produces - the libraries in the google.golang.org/api/...\nsubpackages - are beta.\n\nNote that versioning and stability is strictly not communicated through Go\nmodules. Go modules are used only for dependency management.\n\nMany parameters are specified using ints. However, underlying APIs might\noperate on a finer granularity, expecting int64, int32, uint64, or uint32,\nall of whom have different maximum values. Subsequently, specifying an int\nparameter in one of these clients may result in an error from the API\nbecause the value is too large.\n\nTo see the exact type of int that the API expects, you can inspect the API's\ndiscovery doc. A global catalogue pointing to the discovery doc of APIs can\nbe found at https://www.googleapis.com/discovery/v1/apis.\n\nThis field can be found on all Request/Response structs in the generated\nclients. All of these types have the JSON `omitempty` field tag present on\ntheir fields. This means if a type is set to its default value it will not be\nmarshalled. Sometimes you may actually want to send a default value, for\ninstance sending an int of `0`. In this case you can override the `omitempty`\nfeature by adding the field name to the `ForceSendFields` slice. See docs on\nany struct for more details. This may be used to include empty fields in\nPatch requests.\n\nThis field can be found on all Request/Response structs in the generated\nclients. It can be be used to send JSON null values for the listed fields.\nBy default, fields with empty values are omitted from API requests because of\nthe presence of the `omitempty` field tag on all fields. However, any field\nwith an empty value appearing in NullFields will be sent to the server as\nnull. It is an error if a field in this list has a non-empty value. This may\nbe used to include null fields in Patch requests.\n\nAn error returned by a client's Do method may be cast to a *googleapi.Error\nor unwrapped to an *apierror.APIError.\n\nThe https://pkg.go.dev/google.golang.org/api/googleapi#Error type is useful\nfor getting the HTTP status code:\n\nThe https://pkg.go.dev/github.com/googleapis/gax-go/v2/apierror#APIError type\nis useful for inspecting structured details of the underlying API response,\nsuch as the reason for the error and the error domain, which is typically the\nregistered service name of the tool or product that generated the error:\n\nIf an API call returns an Operation, that means it could take some time to\ncomplete the work initiated by the API call. Applications that are interested\nin the end result of the operation they initiated should wait until the\nOperation.Done field indicates it is finished. To do this, use the service's\nOperation client, and a loop, like so:",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/google.golang.org/api@v0.229.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/google-api-go-client",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND (CC-BY-3.0 AND JSON) AND CC-BY-4.0 AND BSD-3-Clause AND JSON AND BSD-3-Clause AND LicenseRef-scancode-other-copyleft AND BSD-3-Clause AND LicenseRef-scancode-proprietary-license AND CC-BY-4.0 AND CC-BY-3.0 AND LicenseRef-scancode-generic-cla AND LicenseRef-scancode-other-copyleft AND LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-unknown",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "google.golang.org/api",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.229.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-416962dc5ec15303",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/google.golang.org/genproto@v0.0.0-20250414145226-207652e42e2e",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/go-genproto",
+            "licenseConcluded": "LicenseRef-fixed-0x376f1166e5d4ab8e",
+            "licenseDeclared": "Apache-2.0",
+            "name": "google.golang.org/genproto",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.0.0-20250414145226-207652e42e2e"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-487d71ec76c62b85",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/google.golang.org/genproto/googleapis/api@v0.0.0-20250414145226-207652e42e2e",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/go-genproto",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "google.golang.org/genproto/googleapis/api",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.0.0-20250414145226-207652e42e2e"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e552647776e9044c",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0.0-20250414145226-207652e42e2e",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/googleapis/go-genproto",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "google.golang.org/genproto/googleapis/rpc",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Google APIs",
+            "versionInfo": "v0.0.0-20250414145226-207652e42e2e"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-82c38110e8000a1e",
+            "description": "Package grpc implements an RPC system called gRPC.\n\nSee grpc.io for more information about gRPC.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.71.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/grpc/grpc-go",
+            "licenseConcluded": "Apache-2.0 AND LicenseRef-scancode-generic-cla",
+            "licenseDeclared": "Apache-2.0",
+            "name": "google.golang.org/grpc",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "versionInfo": "v1.71.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-82044887b2db854",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.36.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/protocolbuffers/protobuf-go",
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "google.golang.org/protobuf",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/go.mod",
+            "supplier": "Organization: Protocol Buffers",
+            "versionInfo": "v1.36.6"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c6a5668d349b769c",
+            "description": "Internationalized Domain Names in Applications (IDNA)",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/idna@3.10",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-unicode AND LicenseRef-scancode-unknown-license-reference AND BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "idna",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: Kim Davies",
+            "versionInfo": "3.10"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ffdfe8e130d1eb67",
+            "description": "Internationalized Domain Names in Applications (IDNA)",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/idna@3.10",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-unicode AND LicenseRef-scancode-unknown-license-reference AND BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "idna",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Kim Davies",
+            "versionInfo": "3.10"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8721cdcce1e95f71",
+            "description": "Read metadata from Python packages",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/importlib-metadata@8.7.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown-license-reference",
+            "licenseDeclared": "Apache-2.0",
+            "name": "importlib-metadata",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Python",
+            "versionInfo": "8.7.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3806116c80fbb88c",
+            "description": "brain-dead simple config-ini parsing",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/iniconfig@2.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/pytest-dev/iniconfig",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "iniconfig",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "versionInfo": "2.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-448429c247bd8f84",
+            "description": "A very fast and expressive template engine.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/jinja2@3.1.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+            "name": "jinja2",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Pallets",
+            "versionInfo": "3.1.6"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-fd0d71bc9f6da927",
+            "description": "Unofficial liboqs-python library with precompiled liboqs libraries",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/liboqs@0.9.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/FunDan3/liboqs-python-pip/",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "NONE",
+            "name": "liboqs",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: oqs-demos/locust/requirements.txt",
+            "supplier": "Organization: Fun_Dan3",
+            "versionInfo": "0.9.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2cef2f63589fff21",
+            "description": "Developer-friendly load testing framework",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/locust@2.31.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://locust.io/",
+            "licenseConcluded": "0BSD AND MIT AND MIT",
+            "licenseDeclared": "MIT",
+            "name": "locust",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: oqs-demos/locust/requirements.txt",
+            "supplier": "Organization: Locust.io",
+            "versionInfo": "2.31.6"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2de85ee4bf9ff524",
+            "description": "Python port of markdown-it. Markdown parsing, done right!",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/markdown-it-py@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/executablebooks/markdown-it-py",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "markdown-it-py",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Executable Books",
+            "versionInfo": "3.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6e7fa3921e186451",
+            "description": "Safely add untrusted strings to HTML/XML markup.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/markupsafe@3.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+            "name": "markupsafe",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Pallets",
+            "versionInfo": "3.0.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3b5bbc0b98fd8f82",
+            "description": "Collection of plugins for markdown-it-py",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/mdit-py-plugins@0.4.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/executablebooks/mdit-py-plugins",
+            "licenseConcluded": "ISC AND MIT",
+            "licenseDeclared": "MIT",
+            "name": "mdit-py-plugins",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Executable Books",
+            "versionInfo": "0.4.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1a43bfe02d549a5d",
+            "description": "Markdown URL utilities",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/mdurl@0.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/executablebooks/mdurl",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "mdurl",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "versionInfo": "0.1.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f299a991cf36ab5e",
+            "description": "Fundamental package for array computing in Python",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/numpy@1.25",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "numpy",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/third_party/benchmark/tools/requirements.txt",
+            "supplier": "Organization: NumPy",
+            "versionInfo": "1.25"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8381239302991cf6",
+            "description": "The Compiler Plugin is used to compile the sources of your project.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.8.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://maven.apache.org/plugins/",
+            "licenseConcluded": "Apache-2.0 AND Apache-2.0 AND BSD-3-Clause",
+            "licenseDeclared": "Apache-2.0",
+            "name": "org.apache.maven.plugins:maven-compiler-plugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs-java/pom.xml",
+            "supplier": "Organization: The Apache Software Foundation",
+            "versionInfo": "3.8.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ac6a806a8344dd92",
+            "description": "Builds a Java Archive (JAR) file from the compiled project classes and resources.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-jar-plugin@3.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://maven.apache.org/plugins/maven-jar-plugin/",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "org.apache.maven.plugins:maven-jar-plugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs-java/pom.xml",
+            "supplier": "Organization: The Apache Software Foundation",
+            "versionInfo": "3.2.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4aa8a90c05565ceb",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:maven/org.openquantumsafe/liboqs-java@3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "org.openquantumsafe:liboqs-java",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs-java/pom.xml",
+            "versionInfo": "3.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9b05ec15e2f7d7df",
+            "description": "Core utilities for Python packages",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/packaging@24.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "((BSD-3-Clause OR Apache-2.0) AND (BSD-2-Clause OR Apache-2.0) AND Apache-2.0 AND Apache-2.0 AND (BSD-3-Clause OR Apache-2.0) AND Apache-2.0 AND BSD-2-Clause AND Apache-2.0 AND BSD-3-Clause AND BSD-2-Clause AND BSD-3-Clause) OR Apache-2.0",
+            "licenseDeclared": "Apache-2.0 AND BSD-2-Clause",
+            "name": "packaging",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: Python Packaging Authority",
+            "versionInfo": "24.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f4448b99ae6d9c9",
+            "description": "plugin and hook calling mechanisms for python",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pluggy@1.6.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT AND MIT AND LicenseRef-scancode-unknown-license-reference",
+            "licenseDeclared": "MIT",
+            "name": "pluggy",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: pytest-dev",
+            "versionInfo": "1.6.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-43f9f21c5f67af70",
+            "description": "Cross-platform lib for process and system monitoring.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/psutil@6.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/giampaolo/psutil",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "psutil",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: oqs-demos/locust/requirements.txt",
+            "supplier": "Organization: Giampaolo Rodola",
+            "versionInfo": "6.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e4285704a2ddf603",
+            "description": "Pygments is a syntax highlighting package written in Python.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pygments@2.20.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pygments.org",
+            "licenseConcluded": "LicenseRef-fixed-0x83bb30da03f283e",
+            "licenseDeclared": "BSD-2-Clause",
+            "name": "pygments",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: pygments",
+            "versionInfo": "2.20.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-32b147c65e104b57",
+            "description": "pytest: simple powerful testing with Python",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pytest@9.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://docs.pytest.org/en/latest/",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "NONE",
+            "name": "pytest",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: pytest-dev",
+            "versionInfo": "9.0.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-166995a5c5bb3afa",
+            "description": "pytest xdist plugin for distributed testing, most importantly across multiple CPUs",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pytest-xdist@3.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/pytest-dev/pytest-xdist",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pytest-xdist",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: pytest-dev",
+            "versionInfo": "3.5.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5dc0731c140af43d",
+            "description": "YAML parser and emitter for Python",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pyyaml@6.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pyyaml.org/",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pyyaml",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: The YAML Project",
+            "versionInfo": "6.0.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7344faa3e728416a",
+            "description": "YAML parser and emitter for Python",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pyyaml@6.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pyyaml.org/",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pyyaml",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: The YAML Project",
+            "versionInfo": "6.0.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-72e237bccac8e9e0",
+            "description": "Python HTTP for Humans.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/requests@2.33.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND MIT AND Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "requests",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: Python Software Foundation",
+            "versionInfo": "2.33.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-aaa3dc1073801c60",
+            "description": "Python HTTP for Humans.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/requests@2.33.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND MIT AND Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "requests",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Python Software Foundation",
+            "versionInfo": "2.33.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c5c720c9d7e8a479",
+            "description": "Fundamental algorithms for scientific computing in Python",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/scipy@1.10.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND Apache-2.0 AND BSD-3-Clause AND GPL-1.0-or-later AND Apache-2.0 AND MIT AND BSD-2-Clause AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT AND BSD-2-Clause AND BSD-3-Clause AND CC-BY-SA-3.0 AND GPL-1.0-or-later AND LicenseRef-NOASSERTION AND BSD-3-Clause AND BSD-3-Clause AND BSD-3-Clause-Open-MPI AND GPL-3.0-only AND GPL-3.0-or-later AND LicenseRef-NOASSERTION AND BSD-3-Clause AND BSL-1.0 AND BSD-3-Clause AND Boehm-GC AND BSD-3-Clause AND GPL-3.0-only AND BSD-3-Clause AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT AND BSD-3-Clause AND LicenseRef-NOASSERTION AND BSD-3-Clause-LBNL AND BSL-1.0 AND BSL-1.0 AND (NCSA OR MIT) AND BSL-1.0 AND (LicenseRef-NOASSERTION OR LicenseRef-NOASSERTION) AND BSL-1.0 AND MIT AND BSL-1.0 AND MIT AND LicenseRef-NOASSERTION AND BSL-1.0 AND MPL-1.1 AND BSL-1.0 AND LicenseRef-NOASSERTION AND BSL-1.0 AND Zlib AND EPL-1.0 AND MIT AND LicenseRef-NOASSERTION AND GPL-1.0-or-later AND GPL-2.0-or-later AND GPL-3.0-only AND GPL-3.0-or-later AND LicenseRef-NOASSERTION AND LPPL-1.3a AND MIT AND MIT AND LicenseRef-NOASSERTION AND MPL-1.1 AND LicenseRef-NOASSERTION AND Qhull AND Zlib AND dtoa",
+            "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+            "name": "scipy",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: boringssl/third_party/benchmark/tools/requirements.txt",
+            "supplier": "Organization: SciPy",
+            "versionInfo": "1.10.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9abbbf1329457f2e",
+            "description": "A pure Python implementation of a sliding window memory map manager",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/smmap@5.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/gitpython-developers/smmap",
+            "licenseConcluded": "BSD-3-Clause AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "smmap",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: gitpython-developers",
+            "versionInfo": "5.0.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3c3fd6ba2ff0d5e5",
+            "description": "Pretty-print tabular data",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/tabulate@0.9.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/astanin/python-tabulate",
+            "licenseConcluded": "MIT AND MIT AND Python-2.0",
+            "licenseDeclared": "MIT",
+            "name": "tabulate",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Sergey Astanin",
+            "versionInfo": "0.9.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-dbc10976b570ea3c",
+            "description": "Pretty-print tabular data",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/tabulate@0.9.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/astanin/python-tabulate",
+            "licenseConcluded": "MIT AND MIT AND Python-2.0",
+            "licenseDeclared": "MIT",
+            "name": "tabulate",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: oqs-provider/oqs-template/requirements.txt",
+            "supplier": "Organization: Sergey Astanin",
+            "versionInfo": "0.9.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-181eab5f777f09ed",
+            "description": "Backported and Experimental Type Hints for Python 3.9+",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/typing-extensions@4.14.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/python/typing_extensions",
+            "licenseConcluded": "LicenseRef-scancode-unknown-license-reference AND PSF-2.0 AND LicenseRef-scancode-unknown-license-reference AND PSF-2.0 AND Python-2.0 AND GPL-1.0-or-later AND BSD-3-Clause AND 0BSD AND Python-2.0 AND GPL-1.0-or-later AND (Python-2.0 AND BSD-3-Clause) AND (Python-2.0 AND BSD-3-Clause AND 0BSD)",
+            "licenseDeclared": "Python-2.0 AND GPL-1.0-or-later AND Python-2.0 AND BSD-3-Clause AND Python-2.0 AND BSD-3-Clause AND 0BSD",
+            "name": "typing-extensions",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Python",
+            "versionInfo": "4.14.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5edc857993dfaec0",
+            "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/urllib3@2.6.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT AND MIT AND LicenseRef-scancode-unknown-license-reference AND MPL-2.0 AND Python-2.0",
+            "licenseDeclared": "MIT",
+            "name": "urllib3",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/.github/workflows/requirements.txt",
+            "supplier": "Organization: urllib3",
+            "versionInfo": "2.6.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-af61befad62374fe",
+            "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/urllib3@2.6.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT AND MIT AND LicenseRef-scancode-unknown-license-reference AND MPL-2.0 AND Python-2.0",
+            "licenseDeclared": "MIT",
+            "name": "urllib3",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: urllib3",
+            "versionInfo": "2.6.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-42faf294def81e27",
+            "description": "pure python download utility",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/wget@3.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "http://bitbucket.org/techtonik/python-wget/",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "Unlicense",
+            "name": "wget",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "versionInfo": "3.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-94345ebf72abb4a4",
+            "description": "Backport of pathlib-compatible object wrapper for zip files",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/zipp@3.23.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "LicenseRef-scancode-unknown-license-reference AND MIT",
+            "licenseDeclared": "MIT",
+            "name": "zipp",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: liboqs/scripts/copy_from_upstream/requirements.txt",
+            "supplier": "Organization: Jason R. Coombs",
+            "versionInfo": "3.23.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "PQCA.open-quantum-safe",
+            "primaryPackagePurpose": "SOURCE",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "2026-04"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-boringssl",
+            "comment": "This package was added to the Trivy analysis for the boringssl by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/boringssl/archive/3f7be142774019d871f57d266fa38c25ef2ccf59.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/boringssl@3f7be142774019d871f57d266fa38c25ef2ccf59",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "boringssl",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "3f7be142774019d871f57d266fa38c25ef2ccf59"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-ci-containers",
+            "comment": "This package was added to the Trivy analysis for the ci-containers by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/ci-containers/archive/358b53c3aab8b365750c00f7086483dd78b17ad4.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/ci-containers@358b53c3aab8b365750c00f7086483dd78b17ad4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "ci-containers",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "358b53c3aab8b365750c00f7086483dd78b17ad4"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs",
+            "comment": "This package was added to the Trivy analysis for the liboqs by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs/archive/d8509387febc9e32466c86aab544d225d60c8e3c.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs@d8509387febc9e32466c86aab544d225d60c8e3c",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "d8509387febc9e32466c86aab544d225d60c8e3c"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs-cpp",
+            "comment": "This package was added to the Trivy analysis for the liboqs-cpp by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs-cpp/archive/2d5703f5028e55a777caf68ebab32b8c5475f3a7.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs-cpp@2d5703f5028e55a777caf68ebab32b8c5475f3a7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs-cpp",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "2d5703f5028e55a777caf68ebab32b8c5475f3a7"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs-cupqc-meta",
+            "comment": "This package was added to the Trivy analysis for the liboqs-cupqc-meta by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs-cupqc-meta/archive/b026f4e5475cd9c20c2082c7d9bad80e5b0ba89e.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs-cupqc-meta@b026f4e5475cd9c20c2082c7d9bad80e5b0ba89e",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs-cupqc-meta",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "b026f4e5475cd9c20c2082c7d9bad80e5b0ba89e"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs-go",
+            "comment": "This package was added to the Trivy analysis for the liboqs-go by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs-go/archive/75451133b94a6c4be5f528eef94916ce08475f24.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs-go@75451133b94a6c4be5f528eef94916ce08475f24",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs-go",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "75451133b94a6c4be5f528eef94916ce08475f24"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs-java",
+            "comment": "This package was added to the Trivy analysis for the liboqs-java by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs-java/archive/97353bcc8e53152e999248b8dfc89a1ef05d045b.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs-java@97353bcc8e53152e999248b8dfc89a1ef05d045b",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs-java",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "97353bcc8e53152e999248b8dfc89a1ef05d045b"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs-js",
+            "comment": "This package was added to the Trivy analysis for the liboqs-js by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs-js/archive/f65a4985d88fa5252d5f3440b53363f7a1f3ce6a.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs-js@f65a4985d88fa5252d5f3440b53363f7a1f3ce6a",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs-js",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "f65a4985d88fa5252d5f3440b53363f7a1f3ce6a"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs-python",
+            "comment": "This package was added to the Trivy analysis for the liboqs-python by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs-python/archive/9ab93b648e0253087f3c627af3674c058ede391b.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs-python@9ab93b648e0253087f3c627af3674c058ede391b",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs-python",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "9ab93b648e0253087f3c627af3674c058ede391b"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-liboqs-rust",
+            "comment": "This package was added to the Trivy analysis for the liboqs-rust by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/liboqs-rust/archive/a40e1d3ae9cb5eeafb9541b53fbd1a844d86c4ad.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/liboqs-rust@a40e1d3ae9cb5eeafb9541b53fbd1a844d86c4ad",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "liboqs-rust",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "a40e1d3ae9cb5eeafb9541b53fbd1a844d86c4ad"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-openssh",
+            "comment": "This package was added to the Trivy analysis for the openssh by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/openssh/archive/be2efdd2efa5bf4d7f8f17941ac27c3338b77244.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/openssh@be2efdd2efa5bf4d7f8f17941ac27c3338b77244",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "openssh",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "be2efdd2efa5bf4d7f8f17941ac27c3338b77244"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-oqs-demos",
+            "comment": "This package was added to the Trivy analysis for the oqs-demos by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/oqs-demos/archive/189171f313477518a0c6569456b826922d408026.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/oqs-demos@189171f313477518a0c6569456b826922d408026",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "oqs-demos",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "189171f313477518a0c6569456b826922d408026"
+        },
+        {
+            "SPDXID": "SPDXRef-PQCA-open-quantum-safe-oqs-provider",
+            "comment": "This package was added to the Trivy analysis for the oqs-provider by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/open-quantum-safe/oqs-provider/archive/ea09f0fec9a306b9f7d8437ab9c19bb25a47612e.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/open-quantum-safe/oqs-provider@ea09f0fec9a306b9f7d8437ab9c19bb25a47612e",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND CC-BY-4.0 AND (Apache-2.0 AND BSD-3-Clause) AND (Apache-2.0 AND BSD-3-Clause AND MIT) AND (Apache-2.0 AND ISC AND MIT) AND (Apache-2.0 AND MIT) AND BSD-2-Clause AND BSD-3-Clause AND (BSD-3-Clause AND MIT) AND FSFULLR AND FSFUL AND ISC AND MIT AND SSH-short AND (Apache-2.0 AND CC0-1.0) AND CC0-1.0 AND GPL-3.0 WITH Autoconf-exception-2.0 AND LicenseRef-Public-domain-statement AND Unlicense",
+            "licenseDeclared": "Apache-2.0",
+            "name": "oqs-provider",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project PQCA",
+            "supplier": "Organization: Linux Foundation Project PQCA",
+            "versionInfo": "ea09f0fec9a306b9f7d8437ab9c19bb25a47612e"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Application-4d560c0a34e5a6f2",
+            "relatedSpdxElement": "SPDXRef-Package-1323dae46c86c144",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-5978191d870f60a1",
+            "relatedSpdxElement": "SPDXRef-Package-526d695de9ab45c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-7dd0ada62f9ebbbf",
+            "relatedSpdxElement": "SPDXRef-Package-59157764611fbc24",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8e8079f3e605500a",
+            "relatedSpdxElement": "SPDXRef-Package-4aa8a90c05565ceb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8f3019c864d4bf71",
+            "relatedSpdxElement": "SPDXRef-Package-2cef2f63589fff21",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8f3019c864d4bf71",
+            "relatedSpdxElement": "SPDXRef-Package-43f9f21c5f67af70",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-8f3019c864d4bf71",
+            "relatedSpdxElement": "SPDXRef-Package-fd0d71bc9f6da927",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-98e7b812db2e3465",
+            "relatedSpdxElement": "SPDXRef-Package-e6945fe47f30c294",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b894d22feae38fb1",
+            "relatedSpdxElement": "SPDXRef-Package-35e083dfb9c04ff6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-181eab5f777f09ed",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-1a43bfe02d549a5d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-2de85ee4bf9ff524",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-3b5bbc0b98fd8f82",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-3c3fd6ba2ff0d5e5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-42faf294def81e27",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-448429c247bd8f84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-5dc0731c140af43d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-6e7fa3921e186451",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-867181477b120177",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-8721cdcce1e95f71",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-94345ebf72abb4a4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-9abbbf1329457f2e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-aaa3dc1073801c60",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-af61befad62374fe",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-b3119e47bd7f38f9",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-b715c42f99101b99",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-b86799288a1f01f7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-be2af6401d16c16a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-b95a9feed764685d",
+            "relatedSpdxElement": "SPDXRef-Package-ffdfe8e130d1eb67",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-d9ec6c3835f4eb09",
+            "relatedSpdxElement": "SPDXRef-Package-c5c720c9d7e8a479",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-d9ec6c3835f4eb09",
+            "relatedSpdxElement": "SPDXRef-Package-f299a991cf36ab5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-eab510880e21a9e0",
+            "relatedSpdxElement": "SPDXRef-Package-34051e5b2376b4d4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-eab510880e21a9e0",
+            "relatedSpdxElement": "SPDXRef-Package-933b051b73c30a84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-eab510880e21a9e0",
+            "relatedSpdxElement": "SPDXRef-Package-9d1f4c41ce265622",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-eab510880e21a9e0",
+            "relatedSpdxElement": "SPDXRef-Package-dbc10976b570ea3c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-166995a5c5bb3afa",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-1cf44c9e149830ff",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-32b147c65e104b57",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-3806116c80fbb88c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-5e0f253812d49fb6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-5edc857993dfaec0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-6b0365216800af7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-6d3e72df87f64f70",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-72e237bccac8e9e0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-7344faa3e728416a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-9b05ec15e2f7d7df",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-c6a5668d349b769c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-e4285704a2ddf603",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-fdfb21cae28cb654",
+            "relatedSpdxElement": "SPDXRef-Package-f4448b99ae6d9c9",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-boringssl",
+            "relatedSpdxElement": "SPDXRef-Application-4d560c0a34e5a6f2",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-boringssl",
+            "relatedSpdxElement": "SPDXRef-Application-5978191d870f60a1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-boringssl",
+            "relatedSpdxElement": "SPDXRef-Application-7dd0ada62f9ebbbf",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-liboqs-java",
+            "relatedSpdxElement": "SPDXRef-Application-8e8079f3e605500a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-oqs-demos",
+            "relatedSpdxElement": "SPDXRef-Application-8f3019c864d4bf71",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-boringssl",
+            "relatedSpdxElement": "SPDXRef-Application-98e7b812db2e3465",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-liboqs-go",
+            "relatedSpdxElement": "SPDXRef-Application-b894d22feae38fb1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-liboqs",
+            "relatedSpdxElement": "SPDXRef-Application-b95a9feed764685d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-boringssl",
+            "relatedSpdxElement": "SPDXRef-Application-d9ec6c3835f4eb09",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-oqs-provider",
+            "relatedSpdxElement": "SPDXRef-Application-eab510880e21a9e0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PQCA-open-quantum-safe-liboqs",
+            "relatedSpdxElement": "SPDXRef-Application-fdfb21cae28cb654",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4aa8a90c05565ceb",
+            "relatedSpdxElement": "SPDXRef-Package-8381239302991cf6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4aa8a90c05565ceb",
+            "relatedSpdxElement": "SPDXRef-Package-ac6a806a8344dd92",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-1498b9851320b97e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-22521d469490496e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-24961e59fb1e523c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-2f0fad3cc6753411",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-2fdec0abbdeb253a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-305e82a61a758a61",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-31abff374ac80aee",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-31b0e206d5011433",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-390a18836e2d56ac",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-3ab12ab6b64fc0e2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-416962dc5ec15303",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-445d9b53ba52d48e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-487d71ec76c62b85",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-4b76b41324dd3af0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-4bb3f86f033bcce7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-4e65200219bc77e1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-4f6200417b2d76f9",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-50915fbf010aa056",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-51b677feb19df9fc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-52def9d823fc2a29",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-5802cc46d9b83bb3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-5d95b4e91074bab0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-6072c9c773891e32",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-667a454a2c190e68",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-679def69622c677c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-73755f9885371b41",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-77ff3fc4e702f076",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-82044887b2db854",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-82c38110e8000a1e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-9e1e86cf991a9950",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-ab7996f663f5c545",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-b13ddd8a0896c0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-b3da34def8738c2c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-b62015e77a6ae67",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-b91c8e28f37c7e2c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-b96af0d7ebf7a205",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-b980f2f1dc8c2270",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-be18c4c5828c1cc6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-c06df262a8286c04",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-c3f0d346358955a8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-c760af69f7266157",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-d776eaf7d5b4a1d2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-e3d172959f62a63a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-e552647776e9044c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-f3a003febe794051",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-f438e3f99ac9d3d6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-526d695de9ab45c",
+            "relatedSpdxElement": "SPDXRef-Package-f8a8e714ffe8496",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-59157764611fbc24",
+            "relatedSpdxElement": "SPDXRef-Package-5882e1aa6ade1da9",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-59157764611fbc24",
+            "relatedSpdxElement": "SPDXRef-Package-5baa9dd9435e74f2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-boringssl",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-ci-containers",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs-cpp",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs-cupqc-meta",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs-go",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs-java",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs-js",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs-python",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-liboqs-rust",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-openssh",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-oqs-demos",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-c2b6e7e9d925aa15",
+            "relatedSpdxElement": "SPDXRef-PQCA-open-quantum-safe-oqs-provider",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
